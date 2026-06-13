@@ -1,1 +1,96 @@
-CSC 211 web programming group project carried out by a six man team, practicing and implementing the use of HTML, CSS and Javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Group 20 - Portfolio Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>NAUB CSC-211 Group 20</h1>
+        <h2>Nigerian Army University Biu </h2>
+        
+        <a href="barry.html"><button>Barry</button></a>
+    </nav>
+    
+    <div class="container">
+        <div class="welcome">
+            <h2>Welcome to our website. </h2>
+            <p>This website was built by the members of this team. The website comprises of individual profile  webpages built by each member of the team, implementing html, css and Javascript. </p>
+            
+        </div>
+    </div>
+        <h2 style="text-align:center">Meet The Team</h2>
+    <div class="container">
+        <div class="card">
+            <img src="jace.jpg" alt="Member Photo">
+            <h3>Jace</h3>
+            <p>Digital Artist | Animator & Cybersecurity Student</p>
+            <a href="jace.html" class="btn">View Profile</a>
+        </div>
+
+        </div>
+        
+        <div class="container">
+        <div class="card">
+            <img src="barry.jpg" alt="Member Photo">
+            <h3>Barry</h3>
+            <p>Cyber security Analyst | Cybersecurity Student</p>
+            <a href="barry.html" class="btn">View Profile</a>
+        </div>
+
+        </div>
+        
+        <div class="container">
+        <div class="card">
+            <img src="suleiman.jpg" alt="Member Photo">
+            <h3>Simon</h3>
+            <p>Aspiring Digital Forensics Expert</p>
+            <a href="suleiman.html" class="btn">View Profile</a>
+        </div>
+
+        </div>
+        
+        <div class="container">
+        <div class="card">
+            <img src="joshua.jpg" alt="Member Photo">
+            <h3>Joshua</h3>
+            <p>Ethical Hacker | Cybersecurity Student</p>
+            <a href="joshua.html" class="btn">View Profile</a>
+        </div>
+
+        </div>
+        
+        <div class="container">
+        <div class="card">
+            <img src="Saminu.jpg" alt="Member Photo">
+            <h3>FarouQ</h3>
+            <p>Cyber security Analyst | Cybersecurity Student</p>
+            <a href="saminu.html" class="btn">View Profile</a>
+        </div>
+
+        </div>
+        
+        
+<div class="container">
+        <div class="card">
+            <img src="theophilus.jpg" alt="Member Photo">
+            <h3>Dichi</h3>
+            <p>Cybersecurity Student</p>
+            <a href="theophilus.html" class="btn">View Profile</a>
+        </div>
+
+        </div>
+       
+       <footer>
+           <hr color="">
+           <p align="center">
+               Copyright ©️ 2026<br>
+               All rights reserved. 
+           
+           </p>
+       </footer>
+    <script src="script.js"></script>
+</body>
+</html>
